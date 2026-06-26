@@ -1,4 +1,11 @@
 # House Price Prediction
+## Progress
+- [x] Data Loading
+- [x] EDA
+- [x] Data Cleaning
+- [x] Feature Preprocessing
+- [x] Linear Regression
+- [x] Model Evaluation
 ## Model Performance
 
 ### Linear Regression
