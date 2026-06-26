@@ -1,62 +1,14 @@
 # House Price Prediction
+## Model Performance
 
-## Project Overview
+### Linear Regression
 
-This project aims to predict house sale prices using machine learning techniques on the House Prices dataset.
+| Metric                    | Score  |
+| ------------------------- | ------ |
+| R² Score                  | 0.885  |
+| Mean Absolute Error (MAE) | 18,533 |
 
-## Current Progress
+### Conclusion
 
-* Data Loading
-* Exploratory Data Analysis (EDA)
-* Missing Value Analysis
-* Data Cleaning
-* Numerical and Categorical Missing Value Handling
+A Linear Regression model was trained using a preprocessing pipeline consisting of Standard Scaling for numerical features and One-Hot Encoding for categorical features. The model achieved an R² score of 0.885, explaining approximately 88.5% of the variance in house prices.
 
-## Dataset Information
-
-The dataset contains various house-related features such as:
-
-* Lot Area
-* Overall Quality
-* Year Built
-* Neighborhood
-* Garage Information
-* Basement Information
-
-Target Variable:
-
-* SalePrice
-
-## Data Cleaning Steps
-
-* Removed columns with excessive missing values.
-* Imputed numerical features using median values.
-* Handled categorical missing values using meaningful categories such as:
-
-  * NoGarage
-  * NoBasement
-  * NoFireplace
-* Verified that the dataset contains no missing values after preprocessing.
-
-## Technologies Used
-
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-Learn
-
-## Next Steps
-
-* Train-Test Split
-* ColumnTransformer Pipeline
-* Feature Encoding
-* Model Training
-* Model Evaluation
-* Model Deployment
-
-## Author
-
-Anubhav Singh
-B.Tech Student | Machine Learning Enthusiast
