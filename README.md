@@ -15,7 +15,14 @@
 | R² Score                  | 0.885  |
 | Mean Absolute Error (MAE) | 18,533 |
 
-### Conclusion
+## Best Model
 
-A Linear Regression model was trained using a preprocessing pipeline consisting of Standard Scaling for numerical features and One-Hot Encoding for categorical features. The model achieved an R² score of 0.885, explaining approximately 88.5% of the variance in house prices.
+Gradient Boosting Regressor
 
+- R² Score: 0.900
+- MAE: 17,139
+
+### Key Findings
+- Gradient Boosting outperformed Linear Regression and Random Forest.
+- Tree-based models captured nonlinear relationships more effectively.
+- Cross-validation confirmed the model's robustness.
